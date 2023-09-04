@@ -20,6 +20,12 @@ public class Paciente {
     private Integer id;
     private String nombre;
     private String apellido;
+    private Integer edad;
+    private String obraSocial;
+    private Integer numObraSocial;
+    private Integer numTelefono;
+    private String direccion;
+
 
     public Paciente(String id) {
 
