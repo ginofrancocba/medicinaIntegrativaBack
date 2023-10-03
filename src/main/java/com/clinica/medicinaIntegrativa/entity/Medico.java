@@ -12,7 +12,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Entity
 @Table(name = "Especialistas")
-public class Especialista {
+public class Medico {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -22,7 +22,7 @@ public class Especialista {
     private String apellido;
     private String matricula;
 
-    public Especialista(String id) {
+    public Medico(String id) {
         this.id = Integer.parseInt(id);
     }
 }
