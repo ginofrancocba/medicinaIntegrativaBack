@@ -1,4 +1,8 @@
 package com.clinica.medicinaIntegrativa.controller;
 
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
 public class UsuarioController {
+
 }

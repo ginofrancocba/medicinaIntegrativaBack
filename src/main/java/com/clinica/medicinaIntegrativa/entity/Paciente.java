@@ -11,7 +11,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name = "Pacientes")
+@Table(name="Pacientes")
 public class Paciente {
 
     @Id
@@ -21,12 +21,9 @@ public class Paciente {
     private String nombre;
     private String apellido;
     private Integer edad;
-    private Integer fechaNacimiento;
     private String obraSocial;
     private Integer numObraSocial;
     private Integer numTelefono;
-    private String direccion;
-
 
 
     public Paciente(String id) {

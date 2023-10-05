@@ -10,9 +10,7 @@ import lombok.Setter;
 @Getter
 @Setter
 
-public class MedicoDto {
-
-    private Integer id;
-    private String nombre;
-    private String apellido;
+public class LoginFormDto {
+    private String username;
+    private String password;
 }
