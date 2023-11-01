@@ -1,6 +1,5 @@
 package com.clinica.medicinaIntegrativa.controller;
 
-import com.clinica.medicinaIntegrativa.dto.TurnoDto;
 import com.clinica.medicinaIntegrativa.sevice.TurnoService;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;

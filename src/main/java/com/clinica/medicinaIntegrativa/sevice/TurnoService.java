@@ -1,6 +1,5 @@
 package com.clinica.medicinaIntegrativa.sevice;
 
-import com.clinica.medicinaIntegrativa.dto.TurnoDto;
 import com.clinica.medicinaIntegrativa.repository.ITurnoRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
